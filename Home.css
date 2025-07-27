@@ -251,6 +251,28 @@ body.light-mode .driver-card img {
   box-shadow: 0 0 16px var(--shadow-color-start), 0 0 24px var(--shadow-color-end);
 }
 
+.more-drivers-button {
+  display: inline-block;
+  padding: 12px 28px;
+  font-size: 1rem;
+  color: #fff;
+  background: linear-gradient(to right, #ffca28, #ff4081);
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  transition: transform 0.3s, box-shadow 0.3s;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.more-drivers-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(255, 64, 129, 0.5);
+}
+
+
 .contacts {
   text-align: center;
 }
